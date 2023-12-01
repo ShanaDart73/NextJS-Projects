@@ -6,6 +6,8 @@ body {
   box-sizing: border-box;
 }
 
+/***************************  VARIABLES ********************************/
+
 $header_color: rgb(0, 0, 255);
 $sphere_main_bg_color: rgba(0, 255, 255, 0.35);
 $sphere_second_bg_color: rgba(0, 255, 255, 0.2);
@@ -25,10 +27,14 @@ $bg_color: rgb(0, 0, 0);
   }
 }
 
+/****  HOMEPAGE CONTAINER  ****/
+
 .container {
   display: flex;
   flex-flow: nowrap column;
 }
+
+/***********************  HEADER STYLE ********************************/
 
 header {
   background-color: $bg_color;
@@ -107,6 +113,10 @@ header {
     transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);
   }
 }
+/***********************  HEADER STYLE END  *****************************/
+
+
+/***********************  CONTENT STYLE ********************************/
 
 section {
   // background image styling
@@ -117,6 +127,10 @@ section {
   position: relative;
   height: 100vh;
   padding: 1em;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 
 .wrapper {
@@ -126,7 +140,9 @@ section {
 
   font-size: 2em;
   color: antiquewhite;
-  height: 100vh;
+  height: 50vh;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .one {
@@ -142,6 +158,10 @@ section {
 .four {
   background-image: url("https://source.unsplash.com/1920x1080?forest");
 }
+/***********************  CONTENT STYLE END *****************************/
+
+
+/***********************  FOOTER STYLE ********************************/
 
 footer {
   background-color: $bg_color;

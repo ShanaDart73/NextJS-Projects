@@ -6,11 +6,14 @@ body {
   box-sizing: border-box;
 }
 
+/***************************  VARIABLES ********************************/
+/****  HOMEPAGE CONTAINER  ****/
 .container {
   display: flex;
   flex-flow: nowrap column;
 }
 
+/***********************  HEADER STYLE ********************************/
 header {
   background-color: rgb(0, 0, 0);
   color: rgb(0, 0, 255);
@@ -113,6 +116,8 @@ header {
     transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);
   }
 }
+/***********************  HEADER STYLE END  *****************************/
+/***********************  CONTENT STYLE ********************************/
 section {
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,6 +126,9 @@ section {
   position: relative;
   height: 100vh;
   padding: 1em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 
 .wrapper {
@@ -129,7 +137,9 @@ section {
   align-items: center;
   font-size: 2em;
   color: antiquewhite;
-  height: 100vh;
+  height: 50vh;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .one {
@@ -148,6 +158,8 @@ section {
   background-image: url("https://source.unsplash.com/1920x1080?forest");
 }
 
+/***********************  CONTENT STYLE END *****************************/
+/***********************  FOOTER STYLE ********************************/
 footer {
   background-color: rgb(0, 0, 0);
   color: antiquewhite;
