@@ -1,0 +1,159 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-flow: nowrap column;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 255);
+  width: 100vw;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  header {
+    padding: 60px 0;
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 80px 0;
+    font-size: 3em;
+  }
+}
+
+.sphere {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgba(22, 69, 222, 0.49);
+  border-radius: 50%;
+  background-color: rgba(0, 255, 255, 0.35);
+  filter: drop-shadow(0px 0px 40px #f1ecec);
+  transform-style: preserve-3d;
+  -ms-transform: none;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .sphere {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sphere {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+.sphere h1 {
+  background: linear-gradient(blue, red);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.sphere::before,
+.sphere::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  color: rgb(0, 0, 255);
+  border: 1px solid rgba(22, 69, 222, 0.49);
+  border-radius: 50%;
+  content: "NEXT.JS";
+  background-color: rgba(0, 255, 255, 0.2);
+}
+@media screen and (min-width: 768px) {
+  .sphere::before,
+  .sphere::after {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sphere::before,
+  .sphere::after {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+.sphere::before {
+  transform: rotateX(-66.6deg);
+}
+
+.sphere::after {
+  transform: rotateX(66.6deg);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);
+  }
+}
+section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  padding: 1em;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: antiquewhite;
+  height: 100vh;
+}
+
+.one {
+  background-image: url("https://source.unsplash.com/1920x1080?autumn");
+}
+
+.two {
+  background-image: url("https://source.unsplash.com/1920x1080?landscape");
+}
+
+.three {
+  background-image: url("https://source.unsplash.com/1920x1080?nature");
+}
+
+.four {
+  background-image: url("https://source.unsplash.com/1920x1080?forest");
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: antiquewhite;
+  font-size: 1em;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/*# sourceMappingURL=style.css.map */
