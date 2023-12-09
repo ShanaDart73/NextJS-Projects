@@ -1,9 +1,12 @@
-//import Image from 'next/image'
+import Link from 'next/link'
+
+const fibonacci = "In fibonacci series, next number is the the sum of the previous two numbers. For example: 0, 1, 1, 2, 3, 5, etc."
 
 export default function Home() {
     const big_header = "next.js"
     const small_header = "next.js"
     const about = "Next.JS Portfolio"
+
     return (
         <div className="container">
             <header>
@@ -16,7 +19,10 @@ export default function Home() {
 
             <div>
                 <section className="one">
-                    <div className="wrapper">Fibonacci Series</div>
+                    <div className="wrapper">
+                        <Link href="pages/projects/fibonacci">Fibonacci Series</Link>
+                        <p>{fibonacci}</p>
+                    </div>
                 </section>
                 <section className="two">
                     <div className="wrapper">Palindrome Number</div>

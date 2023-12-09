@@ -3,7 +3,9 @@ html,
 body {
   margin: 0;
   padding: 0;
+  color: antiquewhite;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 /***************************  VARIABLES ********************************/
@@ -65,11 +67,13 @@ header {
     height: 600px;
   }
 }
-
 .sphere h1 {
   background: linear-gradient(blue, red);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+.sphere p {
+  color: rgb(0, 0, 255);
 }
 
 .sphere::before,
@@ -116,7 +120,6 @@ header {
     transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);
   }
 }
-/***********************  HEADER STYLE END  *****************************/
 /***********************  CONTENT STYLE ********************************/
 section {
   background-repeat: no-repeat;
@@ -152,13 +155,18 @@ section {
 
 .wrapper {
   display: flex;
+  flex-flow: nowrap column;
   justify-content: center;
   align-items: center;
   font-size: 2em;
-  color: antiquewhite;
   height: 50vh;
   border-radius: 30px;
   background-color: rgba(0, 0, 0, 0.5);
+}
+.wrapper p {
+  font-size: 0.5em;
+  padding: 1.5em;
+  text-align: center;
 }
 
 .one {
@@ -177,11 +185,17 @@ section {
   background-image: url("https://source.unsplash.com/1920x1080?forest");
 }
 
-/***********************  CONTENT STYLE END *****************************/
+.content {
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+}
+
 /***********************  FOOTER STYLE ********************************/
 footer {
   background-color: rgb(0, 0, 0);
-  color: antiquewhite;
   font-size: 1.5em;
   text-align: center;
   padding: 1em 0;

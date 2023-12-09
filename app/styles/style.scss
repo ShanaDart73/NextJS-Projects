@@ -3,7 +3,9 @@ html,
 body {
   margin: 0;
   padding: 0;
+  color: antiquewhite;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 /***************************  VARIABLES ********************************/
@@ -72,12 +74,16 @@ header {
 
   @include sphere_size(768px, 400px, 400px);
   @include sphere_size(1024px, 600px, 600px);
-}
 
-.sphere h1 {
-  background: linear-gradient(blue, red);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  h1 {
+    background: linear-gradient(blue, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  p {
+    color: $header_color;
+  }
 }
 
 .sphere::before,
@@ -113,7 +119,6 @@ header {
     transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);
   }
 }
-/***********************  HEADER STYLE END  *****************************/
 
 
 /***********************  CONTENT STYLE ********************************/
@@ -140,14 +145,20 @@ section {
 
 .wrapper {
   display: flex;
+  flex-flow: nowrap column;
   justify-content: center;
   align-items: center;
 
   font-size: 2em;
-  color: antiquewhite;
   height: 50vh;
   border-radius: 30px;
   background-color: rgba(0, 0, 0, 0.5);
+
+  p {
+    font-size: .5em;
+    padding: 1.5em;
+    text-align: center;
+  }
 }
 
 .one {
@@ -163,14 +174,20 @@ section {
 .four {
   background-image: url("https://source.unsplash.com/1920x1080?forest");
 }
-/***********************  CONTENT STYLE END *****************************/
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: $bg_color;
+}
 
 
 /***********************  FOOTER STYLE ********************************/
 
 footer {
   background-color: $bg_color;
-  color: antiquewhite;
   font-size: 1.5em;
   text-align: center;
   padding: 1em 0;
