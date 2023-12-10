@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const fibonacci = "In fibonacci series, next number is the the sum of the previous two numbers. For example: 0, 1, 1, 2, 3, 5, etc."
+const fibonacci = "In fibonacci series, the sum of two adjacent numbers is equal to the following number. For example: 0, 1, 1, 2, 3, 5, etc."
 
 export default function Home() {
     const big_header = "next.js"

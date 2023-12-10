@@ -1,18 +1,36 @@
 import Link from 'next/link'
 
+let num1 = 0, num2 = 1, num3
+const array = [0, 1]
+
+export const recursive = (count) => {
+    if (count > 0) {
+        num3 = num1 + num2
+        num1 = num2
+        num2 = num3
+        array.push(num3)
+        recursive(count - 1)
+    }
+    return array
+}
+
 const Page = () => {
+    const arrNum = recursive(5)
+
     return (
         <div className="content">
             <nav>
-                <Link href="/">
-                    <h3>Home</h3>
-                </Link>
+                <Link href="/">Home</Link>
             </nav>
             <div>
-                <h1>Fibonacci Series</h1>
+                <h2>Fibonacci Series</h2>
             </div>
             <div>
-                <h2>My code goes here</h2>
+                <p>
+                    {arrNum.map((value) =>
+                        <span key={value}>{value + ", "}</span>
+                    )}
+                </p>
             </div>
         </div>
     )

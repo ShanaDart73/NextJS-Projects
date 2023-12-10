@@ -190,7 +190,19 @@ section {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  row-gap: 2em;
   background-color: rgb(0, 0, 0);
+}
+.content nav {
+  position: absolute;
+  left: 0;
+  padding: 1em;
+}
+.content h2 {
+  padding: 3em 0;
+}
+.content p {
+  padding: 1.5em;
 }
 
 /***********************  FOOTER STYLE ********************************/

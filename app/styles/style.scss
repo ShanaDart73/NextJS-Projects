@@ -180,7 +180,22 @@ section {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  row-gap: 2em;
   background-color: $bg_color;
+
+  nav {
+    position: absolute;
+    left: 0;
+    padding: 1em;
+  }
+
+  h2 {
+    padding: 3em 0;
+  }
+
+  p {
+    padding: 1.5em;
+  }
 }
 
 
