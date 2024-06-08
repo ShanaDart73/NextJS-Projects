@@ -18,7 +18,7 @@ export default function Home() {
       <div>
         <section className="one">
           <div className="wrapper">
-            <Link href="pages/projects/e-commerce">e-commerce</Link>
+            <Link href="pages/e-commerce">e-commerce</Link>
           </div>
         </section>
         <section className="two">

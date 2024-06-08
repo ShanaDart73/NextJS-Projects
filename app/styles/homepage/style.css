@@ -170,41 +170,43 @@ section {
 }
 
 .one {
-  background-image: url("https://source.unsplash.com/1920x1080?autumn");
+  background-image: url("https://i0.wp.com/crie.cr/wp-content/uploads/2023/11/fruits-of-Costa-Rica.jpg?fit=1344%2C768&ssl=1");
 }
 
 .two {
-  background-image: url("https://source.unsplash.com/1920x1080?landscape");
+  background-image: url("https://images.radio.com/aiu-media/GettyImages1259141694-29f8600b-8cec-4a87-9238-a6ea3203fd04.jpg");
 }
 
 .three {
-  background-image: url("https://source.unsplash.com/1920x1080?nature");
+  background-image: url("https://cdn.mos.cms.futurecdn.net/tXr5UjKDsDBrYBQM9znb2c-1200-80.jpg");
 }
 
 .four {
-  background-image: url("https://source.unsplash.com/1920x1080?forest");
+  background-image: url("https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.pennlive.com/home/penn-media/width2048/img/wildaboutpa/photo/summer-sunrisejpg-8a3de64ee9c00a6e.jpg");
 }
 
-.content {
+/*.content {
   height: 100vh;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   row-gap: 2em;
-  background-color: rgb(0, 0, 0);
-}
-.content nav {
-  position: absolute;
-  left: 0;
-  padding: 1em;
-}
-.content h2 {
-  padding: 3em 0;
-}
-.content p {
-  padding: 1.5em;
-}
+  background-color: $bg_color;
 
+  nav {
+    position: absolute;
+    left: 0;
+    padding: 1em;
+  }
+
+  h2 {
+    padding: 3em 0;
+  }
+
+  p {
+    padding: 1.5em;
+  }
+}*/
 /***********************  FOOTER STYLE ********************************/
 footer {
   background-color: rgb(0, 0, 0);
