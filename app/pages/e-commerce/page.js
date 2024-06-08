@@ -1,15 +1,14 @@
-import Link from "next/link";
+import "../../styles/e-commerce/style.css";
+import Navbar from "/app/components/e-commerce/Navbar";
 
 const Page = () => {
   return (
-    <>
-      <nav>
-        <Link href="/">Home</Link>
-      </nav>
+    <div className="e-com-container">
+      <Navbar />
       <div>
         <h2>e-commerce</h2>
       </div>
-    </>
+    </div>
   );
 };
 

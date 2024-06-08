@@ -1,3 +1,35 @@
+.e-com-container {
+  height: 100vh;
+  color: black;
+  background-color: antiquewhite;
+}
 
+.e-com-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.e-com-menu {
+  position: absolute;
+  left: 0;
+  top: 70px;
+  width: 100vw;
+  height: calc(100% - 70px);
+  background-color: black;
+  color: antiquewhite;
+  font-size: large;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  z-index: 10;
+}
+.e-com-menu a {
+  color: antiquewhite;
+  padding-bottom: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */

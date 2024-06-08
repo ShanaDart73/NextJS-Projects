@@ -3,7 +3,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  color: antiquewhite;
   box-sizing: border-box;
   text-decoration: none;
 }
@@ -11,8 +10,12 @@ body {
 /***************************  VARIABLES ********************************/
 /****  HOMEPAGE CONTAINER  ****/
 .container {
+  color: antiquewhite;
   display: flex;
   flex-flow: nowrap column;
+}
+.container a {
+  color: antiquewhite;
 }
 
 /***********************  HEADER STYLE ********************************/
@@ -210,6 +213,7 @@ section {
 /***********************  FOOTER STYLE ********************************/
 footer {
   background-color: rgb(0, 0, 0);
+  color: antiquewhite;
   font-size: 1.5em;
   text-align: center;
   padding: 1em 0;
