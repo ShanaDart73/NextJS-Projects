@@ -19,9 +19,10 @@
   top: 70px;
   width: 100vw;
   height: calc(100% - 70px);
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+  animation: myMove 1s ease-in-out;
   color: antiquewhite;
-  font-size: large;
+  font-size: x-large;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -29,13 +30,36 @@
   gap: 8px;
   z-index: 10;
 }
+@keyframes myMove {
+  from {
+    background-color: rgba(255, 255, 255, 0.35);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+}
 .e-com-menu a {
   color: antiquewhite;
-  padding-bottom: 10px;
+  margin: auto;
+  align-self: flex-start;
 }
 
 .e-com-content {
   flex-grow: 1;
+}
+
+.promo {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 3.5em 0;
+  background-color: #F4DFB7;
+}
+.promo h1, .promo h2 {
+  font-size: 3em;
+}
+.promo p {
+  font-size: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */
