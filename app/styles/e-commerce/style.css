@@ -62,4 +62,19 @@
   font-size: 2em;
 }
 
+.featuredImgTop {
+  position: absolute;
+  object-fit: cover;
+  z-index: 10;
+}
+.featuredImgTop :hover {
+  opacity: 0;
+  transition: opacity 0.5ms ease;
+}
+
+.featuredImgBottom {
+  position: absolute;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=style.css.map */

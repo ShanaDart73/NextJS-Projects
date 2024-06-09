@@ -1,4 +1,5 @@
 import "/app/styles/e-commerce/style.css";
+import FeaturedList from "/app/components/e-commerce/FeaturedList";
 
 const Content = () => {
   return (
@@ -20,7 +21,10 @@ const Content = () => {
         </di>
       </div>
       <div>
-        <div></div>
+        <div>
+          <h2>Featured Products</h2>
+          <FeaturedList />
+        </div>
       </div>
       <div>
         <div></div>
