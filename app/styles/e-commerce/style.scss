@@ -52,32 +52,16 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  padding: 3.5em 0;
+  padding: 3.5rem 0;
   background-color: #F4DFB7;
 
   h1, h2 {
-    font-size: 3em;
+    font-size: 3rem;
   }
 
   p {
-    font-size: 2em;
+    font-size: 2rem;
   }
-}
-
-.featuredImgTop {
-  position: absolute;
-  object-fit: cover;
-  z-index: 10;
-
-  :hover {
-    opacity: 0;
-    transition: opacity 0.5ms ease;
-  }
-}
-
-.featuredImgBottom {
-  position: absolute;
-  object-fit: cover;
 }
 
 .e-com-footer {}

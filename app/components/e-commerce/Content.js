@@ -16,7 +16,7 @@ const Content = () => {
             autoPlay
             muted
             loop
-            style={{ width: "100vw" }}
+            style={{ width: "100vw", height: "auto" }}
           />
         </di>
       </div>
