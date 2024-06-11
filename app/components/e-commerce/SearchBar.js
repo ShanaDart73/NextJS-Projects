@@ -11,7 +11,7 @@ const SearchBar = () => {
     const name = formData.get("name");
 
     if (name) {
-      router.push(`/e-commerce/list?name=${name}`);
+      router.push(`/pages/e-commerce/list?name=${name}`);
     }
   };
   return (
