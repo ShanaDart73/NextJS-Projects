@@ -15,6 +15,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "cdn.mos.cms.futurecdn.net"
       },
+      {
+        protocol: "https",
+        hostname: "media.npr.org",
+      },
     ],
   },
 };
