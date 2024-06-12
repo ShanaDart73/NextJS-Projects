@@ -6,7 +6,7 @@ import NavIcons from "/app/components/e-commerce/NavIcons";
 
 const Navbar = () => {
   return (
-    <div className="h-20 md:px-8 lg:px-16 xl:px-32 2xl:px-64 relative">
+    <div className="h-20 md:px-8 lg:px-16 xl:px-20 2xl:px-36 relative">
       <div className="h-full p-4 flex items-center justify-between md:hidden">
         <Link href="/" className="">
           <Image
@@ -19,18 +19,18 @@ const Navbar = () => {
         </Link>
         <Menu />
       </div>
-      <div className="hidden md:flex items-center justify-between gap-8 h-full">
-        <div className="w-1/3 xl:1/2 flex items-center gap-12">
-          <Link href="/" className="flex items-center gap-3">
+      <div className="hidden pt-4 pb-2 md:flex items-center justify-between gap-8 h-full">
+        <div className="w-1/2 xl:w-1/3 flex items-center gap-4 lg:gap-12">
+          <Link href="/" className="">
             <Image
               src="/logo.svg"
-              width={50}
-              height={50}
+              width={40}
+              height={40}
               alt="logo"
               priority={false}
             />
           </Link>
-          <div className="hidden xl:flex gap-4">
+          <div className="md:flex gap-4">
             <Link href="/">Home</Link>
             <Link href="/">Shop</Link>
             <Link href="/">Deals</Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
             <Link href="/">Contact</Link>
           </div>
         </div>
-        <div className="w-2/3 xl:1/2 flex items-center justify-between gap-8">
+        <div className="w-1/2 xl:w-2/3 flex items-center justify-between gap-4 lg:gap-12">
           <SearchBar />
           <NavIcons />
         </div>
