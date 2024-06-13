@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         shana: "rgba(253,105,132,0.81)",
         dart: "#FAEBD7FF",
+        sales: "#F4DFB7",
       },
     },
   },
