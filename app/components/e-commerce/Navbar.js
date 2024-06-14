@@ -19,8 +19,8 @@ const Navbar = () => {
         </Link>
         <Menu />
       </div>
-      <div className="hidden pt-4 pb-2 md:flex items-center justify-between gap-8 h-full">
-        <div className="w-1/2 xl:w-1/3 flex items-center gap-4 lg:gap-12">
+      <div className="hidden pt-4 pb-4 md:flex items-center justify-between gap-8 h-full xl:pt-8 xl:pb-8">
+        <div className="w-1/2 flex items-center gap-4 lg:gap-12 xl:gap-20">
           <Link href="/" className="">
             <Image
               src="/logo.svg"
@@ -28,9 +28,10 @@ const Navbar = () => {
               height={40}
               alt="logo"
               priority={false}
+              className="lg:w-12 h-12 xl:w-16 h-16"
             />
           </Link>
-          <div className="md:flex gap-4">
+          <div className="md:flex gap-4 lg:text-lg xl:text-xl xl:gap-10">
             <Link href="/">Home</Link>
             <Link href="/">Shop</Link>
             <Link href="/">Deals</Link>
@@ -38,7 +39,7 @@ const Navbar = () => {
             <Link href="/">Contact</Link>
           </div>
         </div>
-        <div className="w-1/2 xl:w-2/3 flex items-center justify-between gap-4 lg:gap-12">
+        <div className="w-1/2 flex items-center justify-between gap-4 lg:gap-12">
           <SearchBar />
           <NavIcons />
         </div>

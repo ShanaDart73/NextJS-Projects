@@ -7,19 +7,8 @@ const salesProduct = "Delicious fruit from Kenya";
 const Content = () => {
   return (
     <div className="grow">
-      <div className="w-screen flex flex-col xl:flex-row">
-        <div className="h-1/2 xl:w-1/2 flex flex-col items-center py-14 bg-sales gap-8 xl:gap-10">
-          <p className="text-4xl xl:text-5xl">{sales}</p>
-          <h1 className="max-w-xs text-center text-5xl xl:text-6xl max-w-md">
-            {salesProduct}
-          </h1>
-          <Link href="#" className="">
-            <button className="rounded-md bg-black text-dart py-3 px-4">
-              SHOP NOW
-            </button>
-          </Link>
-        </div>
-        <div className="h-1/2 xl:w-1/2 relative">
+      <div className="w-screen flex flex-col">
+        <div className="h-1/2">
           <video
             src={require("../../../public/africaFruit.mp4")}
             autoPlay
@@ -27,6 +16,15 @@ const Content = () => {
             loop
             style={{ width: "100vw", height: "auto" }}
           />
+        </div>
+        <div className="h-1/2 flex flex-col items-center py-8 bg-sales gap-8 xl:gap-10">
+          <p className="text-4xl xl:text-5xl">{sales}</p>
+          <h1 className="text-center text-5xl xl:text-6xl">{salesProduct}</h1>
+          <Link href="#" className="">
+            <button className="rounded-xl bg-green-600 text-dart py-3 px-4">
+              SHOP NOW
+            </button>
+          </Link>
         </div>
       </div>
       <div>
