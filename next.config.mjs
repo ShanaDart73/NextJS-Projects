@@ -19,6 +19,14 @@ const nextConfig = {
         protocol: "https",
         hostname: "media.npr.org",
       },
+      {
+        protocol: "https",
+        hostname: "blog.sakura.co"
+      },
+      {
+        protocol: "https",
+        hostname: "www.rootsplants.co.uk",
+      },
     ],
   },
 };
