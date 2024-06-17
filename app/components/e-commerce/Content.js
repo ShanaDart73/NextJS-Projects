@@ -1,5 +1,7 @@
 import FeaturedList from "/app/components/e-commerce/FeaturedList";
 import Link from "next/link";
+import CategoryList from "/app/components/e-commerce/CategoryList";
+import NewProductList from "@/app/components/e-commerce/NewProductList";
 
 const sales = "Sale! Up to 50% off";
 const salesProduct = "Delicious fruit from Kenya";
@@ -34,10 +36,12 @@ const Content = () => {
         </div>
       </div>
       <div>
-        <div></div>
+        <h2 className="text-2xl px-4">Categories</h2>
+        <CategoryList />
       </div>
       <div>
-        <div></div>
+        <h2 className="text-2xl px-4">New Products</h2>
+        <NewProductList />
       </div>
     </div>
   );

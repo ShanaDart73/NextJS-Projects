@@ -27,6 +27,38 @@ const nextConfig = {
         protocol: "https",
         hostname: "www.rootsplants.co.uk",
       },
+      {
+        protocol: "https",
+        hostname: "thefreshandnatural.com",
+      },
+      {
+        protocol: "https",
+        hostname: "backyardcitrustrees.com",
+      },
+      {
+        protocol: "https",
+        hostname: "carlssfoodcity.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.greenheartuae.com",
+      },
+      {
+        protocol: "https",
+        hostname: "gartencenter.li",
+      },
+      {
+        protocol: "https",
+        hostname: "exoticfruits.co.uk",
+      },
+      {
+        protocol: "https",
+        hostname: "www.flushinghospital.org",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.britannica.com",
+      },
     ],
   },
 };
