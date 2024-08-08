@@ -7,60 +7,39 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between gap-24">
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
           <Link href="/">
-            <Image
+            <img
               src="/logo.svg"
-              width={40}
-              height={40}
               alt="logo"
-              priority={false}
-              className="lg:w-12 h-12 xl:w-16 h-16"
+              className="w-12 h-12 md:w-14 md:h-14 xl:w-16 xl:h-16"
             />
           </Link>
-          <p>17 B-C Lehel street, 1134 Budapest, Hungary</p>
-          <span className="font-semibold">hello@shanashop.com</span>
-          <span className="font-semibold">+36 70 123 4567</span>
+          <p className="text-lg">17 B-C Lehel street, 1134 Budapest, Hungary</p>
+          <span className="text-lg font-semibold">hello@shanashop.com</span>
+          <span className="text-lg font-semibold">+36 70 123 4567</span>
           <div className="flex gap-6">
-            <Image
+            <img
               src="/facebook.svg"
               alt=""
-              width={14}
-              height={14}
-              className="cursor-pointer"
+              className="w-3.5 h-6 cursor-pointer"
             />
-            <Image
+            <img
               src="/instagram.svg"
               alt=""
-              width={20}
-              height={20}
-              className="cursor-pointer"
+              className="w-6 h-6 cursor-pointer"
             />
-            <Image
-              src="/youtube.svg"
-              alt=""
-              width={24}
-              height={24}
-              className="cursor-pointer"
-            />
-            <Image
+            <img src="/youtube.svg" alt="" className="w-8 h-6 cursor-pointer" />
+            <img
               src="/pinterest.svg"
               alt=""
-              width={20}
-              height={20}
-              className="cursor-pointer"
+              className="w-6 h-6 cursor-pointer"
             />
-            <Image
-              src="/twitter.svg"
-              alt=""
-              width={20}
-              height={20}
-              className="cursor-pointer"
-            />
+            <img src="/twitter.svg" alt="" className="w-6 h-6 cursor-pointer" />
           </div>
         </div>
         <div className=" hidden lg:flex justify-between w-1/2">
           <div className="flex flex-col gap-10">
-            <h1 className="uppercase">Company</h1>
-            <div className="flex flex-col justify-between gap-6">
+            <h1 className="text-xl text-center uppercase">Company</h1>
+            <div className="flex flex-col justify-between gap-6 text-lg">
               <Link href="#">About Us</Link>
               <Link href="#">Career</Link>
               <Link href="#">Affiliates</Link>
@@ -69,8 +48,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col gap-10">
-            <h1 className="uppercase">shop</h1>
-            <div className="flex flex-col justify-between gap-6">
+            <h1 className="text-xl text-center uppercase">shop</h1>
+            <div className="flex flex-col justify-between gap-6 text-lg">
               <Link href="#">New Arrivals</Link>
               <Link href="#">Pick-Up Points</Link>
               <Link href="#">Shipments</Link>
@@ -79,8 +58,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col gap-10">
-            <h1 className="uppercase">help</h1>
-            <div className="flex flex-col justify-between gap-6">
+            <h1 className="text-xl text-center uppercase">help</h1>
+            <div className="flex flex-col justify-between gap-6 text-lg">
               <Link href="#">Customer Service</Link>
               <Link href="#">My Account</Link>
               <Link href="#">Find a Store</Link>
@@ -90,8 +69,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
-          <h1 className="font-medium text-lg uppercase">subscribe</h1>
-          <p>
+          <h1 className="font-medium text-xl uppercase">subscribe</h1>
+          <p className="text-lg">
             Be the first to get the latest news about trends, promotion and much
             more!
           </p>
@@ -99,27 +78,46 @@ const Footer = () => {
             <input
               type="text"
               placeholder="Email address"
-              className="p-4 w-3/4"
+              className="p-4 w-3/4 text-lg"
             />
-            <button className="w-1/4 bg-shana text-dart uppercase">join</button>
+            <button className="w-1/4 bg-shana text-dart uppercase text-xl">
+              join
+            </button>
           </div>
-          <span className="font-semibold">Secure Payments</span>
+          <span className="font-semibold text-xl">Secure Payments</span>
           <div className=" flex justify-between">
-            <Image src="/mastercard.png" alt="" width={40} height={20} />
-            <Image src="/visa.png" alt="" width={40} height={20} />
-            <Image src="/americaexpress.png" alt="" width={40} height={20} />
-            <Image src="/discover.png" alt="" width={40} height={20} />
-            <Image src="/dinersclub.png" alt="" width={40} height={20} />
+            <img
+              className="w-14 h-8 lg:w-10 xl:w-14"
+              src="/mastercard.png"
+              alt=""
+            />
+            <img className="w-14 h-8 lg:w-10 xl:w-14" src="/visa.png" alt="" />
+            <img
+              className="w-14 h-8 lg:w-10 xl:w-14"
+              src="/americaexpress.png"
+              alt=""
+            />
+            <img
+              className="w-14 h-8 lg:w-10 xl:w-14"
+              src="/discover.png"
+              alt=""
+            />
+            <img
+              className="w-14 h-8 lg:w-10 xl:w-14"
+              src="/dinersclub.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16">
-        <div className="">&copy; 2024 Shana Shop</div>
+        <div className="text-lg">&copy; 2024 Shana Shop</div>
         <div className="flex flex-col gap-8 md:flex-row">
-          <div className=""></div>
-          <span className="text-gray-500 mr-4">Language</span>
-          <span className="font-medium">Hungary | English</span>
-          <div className="">
+          <div className="flex text-lg">
+            <span className="text-gray-500 mr-4">Language</span>
+            <span className="font-medium">Hungary | English</span>
+          </div>
+          <div className="flex text-lg">
             <span className="text-gray-500 mr-4">Currency</span>
             <span className="font-medium">Ft</span>
           </div>
