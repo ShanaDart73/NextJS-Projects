@@ -16,7 +16,7 @@ const Content = () => {
             autoPlay
             muted
             loop
-            style={{ width: "100vw", height: "auto" }}
+            className="w-screen h-auto"
           />
         </div>
         <div className="h-1/2 mb-8 flex flex-col items-center py-8 bg-sales gap-8 xl:gap-10">
@@ -31,16 +31,16 @@ const Content = () => {
       </div>
       <div>
         <div>
-          <h2 className="text-2xl px-4">Featured Products</h2>
+          <h2 className="text-2xl px-4 font-medium">Featured Products</h2>
           <FeaturedList />
         </div>
       </div>
       <div>
-        <h2 className="text-2xl px-4">Categories</h2>
+        <h2 className="text-2xl px-4 font-medium">Categories</h2>
         <CategoryList />
       </div>
       <div>
-        <h2 className="text-2xl px-4">New Products</h2>
+        <h2 className="text-2xl px-4 font-medium">New Products</h2>
         <NewProductList />
       </div>
     </div>

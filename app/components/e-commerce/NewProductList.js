@@ -19,14 +19,14 @@ const NewProductList = () => {
           />
         </div>
         <div className="flex justify-between px-4">
-          <span className="font-medium">Pineapple</span>
-          <span className="font-medium">$5.99</span>
+          <span className="font-medium text-lg">Pineapple</span>
+          <span className="font-medium text-lg">$5.99</span>
         </div>
-        <div className="text-sm text-gray-500  px-4">My description</div>
+        <div className="text-lg text-gray-500 px-4">My description</div>
         <div className="px-4">
           <button
-            className="rounded-2xl ring-1 ring-shana text-shana w-max
-            py-2 px-4 text-xs hover:bg-shana hover:text-dart"
+            className="rounded-3xl ring-1 ring-shana text-shana w-max
+            py-2 px-4 text-lg hover:bg-shana hover:text-dart"
           >
             Add To Cart
           </button>
@@ -46,14 +46,14 @@ const NewProductList = () => {
           />
         </div>
         <div className="flex justify-between px-4">
-          <span className="font-medium">Dragon Fruit</span>
-          <span className="font-medium">$4.99</span>
+          <span className="font-medium text-lg">Dragon Fruit</span>
+          <span className="font-medium text-lg">$4.99</span>
         </div>
-        <div className="text-sm text-gray-500  px-4">My description</div>
+        <div className="text-lg text-gray-500 px-4">My description</div>
         <div className="px-4">
           <button
-            className="rounded-2xl ring-1 ring-shana text-shana w-max
-            py-2 px-4 text-xs hover:bg-shana hover:text-dart"
+            className="rounded-3xl ring-1 ring-shana text-shana w-max
+            py-2 px-4 text-lg hover:bg-shana hover:text-dart"
           >
             Add To Cart
           </button>
@@ -73,14 +73,14 @@ const NewProductList = () => {
           />
         </div>
         <div className="flex justify-between px-4">
-          <span className="font-medium">Mango</span>
-          <span className="font-medium">$3.99</span>
+          <span className="font-medium text-lg">Mango</span>
+          <span className="font-medium text-lg">$3.99</span>
         </div>
-        <div className="text-sm text-gray-500  px-4">My description</div>
+        <div className="text-lg text-gray-500 px-4">My description</div>
         <div className="px-4">
           <button
-            className="rounded-2xl ring-1 ring-shana text-shana w-max
-            py-2 px-4 text-xs hover:bg-shana hover:text-dart"
+            className="rounded-3xl ring-1 ring-shana text-shana w-max
+            py-2 px-4 text-lg hover:bg-shana hover:text-dart"
           >
             Add To Cart
           </button>
@@ -100,14 +100,14 @@ const NewProductList = () => {
           />
         </div>
         <div className="flex justify-between px-4">
-          <span className="font-medium">Avocado</span>
-          <span className="font-medium">$5.49</span>
+          <span className="font-medium text-lg">Avocado</span>
+          <span className="font-medium text-lg">$5.49</span>
         </div>
-        <div className="text-sm text-gray-500  px-4">My description</div>
+        <div className="text-lg text-gray-500 px-4">My description</div>
         <div className="px-4">
           <button
-            className="rounded-2xl ring-1 ring-shana text-shana w-max
-            py-2 px-4 text-xs hover:bg-shana hover:text-dart"
+            className="rounded-3xl ring-1 ring-shana text-shana w-max
+            py-2 px-4 text-lg hover:bg-shana hover:text-dart"
           >
             Add To Cart
           </button>

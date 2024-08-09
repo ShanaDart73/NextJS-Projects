@@ -31,16 +31,16 @@ const Menu = () => {
         </button>
       )}
       <div
-        className={`fixed bg-black text-dart left-0 top-16 w-full h-[calc(100vh-80px)]
-              flex flex-col items-center justify-start pt-8 gap-8 text-2xl z-20 ${open ? "translate-x-0" : "translate-x-full"} ease-in-out duration-1000`}
+        className={`fixed bg-black text-dart right-0 top-16 w-1/2 h-[calc(100vh-80px)]
+              flex flex-col items-left justify-start pl-16 pt-8 gap-8 text-2xl z-20 ${open ? "translate-x-0" : "translate-x-full"} ease-in-out duration-1000`}
       >
         <Link href="/">Home</Link>
-        <Link href="/">Shop</Link>
-        <Link href="/">Deals</Link>
-        <Link href="/">About</Link>
-        <Link href="/">Contact</Link>
-        <Link href="/">Logout</Link>
-        <Link href="/">Cart</Link>
+        <Link href="#">Shop</Link>
+        <Link href="#">Deals</Link>
+        <Link href="#">About</Link>
+        <Link href="#">Contact</Link>
+        <Link href="#">Logout</Link>
+        <Link href="#">Cart</Link>
       </div>
     </div>
   );

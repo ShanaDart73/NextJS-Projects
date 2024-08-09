@@ -34,14 +34,14 @@ const FeaturedList = () => {
           />
         </div>
         <div className="flex justify-between px-4">
-          <span className="font-medium">Guava</span>
-          <span className="font-medium">$5.59</span>
+          <span className="font-medium text-lg">Guava</span>
+          <span className="font-medium text-lg">$5.59</span>
         </div>
-        <div className="text-sm text-gray-500  px-4">{guavaDescription}</div>
+        <div className="text-lg text-gray-500 px-4">{guavaDescription}</div>
         <div className="px-4">
           <button
-            className="rounded-2xl ring-1 ring-shana text-shana w-max
-            py-2 px-4 text-xs hover:bg-shana hover:text-dart"
+            className="rounded-3xl ring-1 ring-shana text-shana w-max
+            py-2 px-4 text-lg hover:bg-shana hover:text-dart"
           >
             Add To Cart
           </button>
@@ -68,14 +68,14 @@ const FeaturedList = () => {
           />
         </div>
         <div className="flex justify-between px-4">
-          <span className="font-medium">Peach</span>
-          <span className="font-medium">$3.99</span>
+          <span className="font-medium text-lg">Peach</span>
+          <span className="font-medium text-lg">$3.99</span>
         </div>
-        <div className="text-sm text-gray-500 px-4">{peachDescription}</div>
+        <div className="text-lg text-gray-500 px-4">{peachDescription}</div>
         <div className="px-4">
           <button
-            className="rounded-2xl ring-1 ring-shana text-shana w-max
-            py-2 px-4 text-xs hover:bg-shana hover:text-dart"
+            className="rounded-3xl ring-1 ring-shana text-shana w-max
+            py-2 px-4 text-lg hover:bg-shana hover:text-dart"
           >
             Add To Cart
           </button>
@@ -102,14 +102,14 @@ const FeaturedList = () => {
           />
         </div>
         <div className="flex justify-between px-4">
-          <span className="font-medium">Orange</span>
-          <span className="font-medium">$4.99</span>
+          <span className="font-medium text-lg">Orange</span>
+          <span className="font-medium text-lg">$4.99</span>
         </div>
-        <div className="text-sm text-gray-500 px-4">{orangeDescription}</div>
+        <div className="text-lg text-gray-500 px-4">{orangeDescription}</div>
         <div className="px-4">
           <button
-            className="rounded-2xl ring-1 ring-shana text-shana w-max
-            py-2 px-4 text-xs hover:bg-shana hover:text-dart"
+            className="rounded-3xl ring-1 ring-shana text-shana w-max
+            py-2 px-4 text-lg hover:bg-shana hover:text-dart"
           >
             Add To Cart
           </button>
@@ -136,14 +136,14 @@ const FeaturedList = () => {
           />
         </div>
         <div className="flex justify-between px-4">
-          <span className="font-medium">Papaya</span>
-          <span className="font-medium">$6.59</span>
+          <span className="font-medium text-lg">Papaya</span>
+          <span className="font-medium text-lg">$6.59</span>
         </div>
-        <div className="text-sm text-gray-500 px-4">{papayaDescription}</div>
+        <div className="text-lg text-gray-500 px-4">{papayaDescription}</div>
         <div className="px-4">
           <button
-            className="rounded-2xl ring-1 ring-shana text-shana w-max
-            py-2 px-4 text-xs hover:bg-shana hover:text-dart"
+            className="rounded-3xl ring-1 ring-shana text-shana w-max
+            py-2 px-4 text-lg hover:bg-shana hover:text-dart"
           >
             Add To Cart
           </button>

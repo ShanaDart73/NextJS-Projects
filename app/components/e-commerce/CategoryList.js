@@ -19,7 +19,7 @@ const CategoryList = () => {
               className="object-cover rounded-md"
             />
           </div>
-          <h1 className="mt-8 font-light text-clip tracking-wide">
+          <h1 className="mt-8 font-light text-lg text-clip tracking-wide">
             Category Name
           </h1>
         </Link>
@@ -55,7 +55,7 @@ const CategoryList = () => {
               className="object-cover rounded-md"
             />
           </div>
-          <h1 className="mt-8 font-light text-clip tracking-wide">
+          <h1 className="mt-8 font-light text-lg text-clip tracking-wide">
             Category Name
           </h1>
         </Link>
@@ -73,7 +73,7 @@ const CategoryList = () => {
               className="object-cover rounded-md"
             />
           </div>
-          <h1 className="mt-8 font-light text-clip tracking-wide">
+          <h1 className="mt-8 font-light text-lg text-clip tracking-wide">
             Category Name
           </h1>
         </Link>
@@ -91,7 +91,7 @@ const CategoryList = () => {
               className="object-cover rounded-md"
             />
           </div>
-          <h1 className="mt-8 font-light text-clip tracking-wide">
+          <h1 className="mt-8 font-light text-lg text-clip tracking-wide">
             Category Name
           </h1>
         </Link>
@@ -109,7 +109,7 @@ const CategoryList = () => {
               className="object-cover rounded-md"
             />
           </div>
-          <h1 className="mt-8 font-light text-clip tracking-wide">
+          <h1 className="mt-8 font-light text-lg text-clip tracking-wide">
             Category Name
           </h1>
         </Link>
@@ -127,7 +127,7 @@ const CategoryList = () => {
               className="object-cover rounded-md"
             />
           </div>
-          <h1 className="mt-8 font-light text-clip tracking-wide">
+          <h1 className="mt-8 font-light text-lg text-clip tracking-wide">
             Category Name
           </h1>
         </Link>
@@ -145,7 +145,7 @@ const CategoryList = () => {
               className="object-cover rounded-md"
             />
           </div>
-          <h1 className="mt-8 font-light text-clip tracking-wide">
+          <h1 className="mt-8 font-light text-lg text-clip tracking-wide">
             Category Name
           </h1>
         </Link>
