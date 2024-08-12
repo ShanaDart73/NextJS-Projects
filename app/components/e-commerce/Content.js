@@ -31,16 +31,18 @@ const Content = () => {
       </div>
       <div>
         <div>
-          <h2 className="text-2xl px-4 font-medium">Featured Products</h2>
+          <h2 className="text-2xl px-4 font-medium xl:text-3xl">
+            Featured Products
+          </h2>
           <FeaturedList />
         </div>
       </div>
       <div>
-        <h2 className="text-2xl px-4 font-medium">Categories</h2>
+        <h2 className="text-2xl px-4 font-medium xl:text-3xl">Categories</h2>
         <CategoryList />
       </div>
       <div>
-        <h2 className="text-2xl px-4 font-medium">New Products</h2>
+        <h2 className="text-2xl px-4 font-medium xl:text-3xl">New Products</h2>
         <NewProductList />
       </div>
     </div>

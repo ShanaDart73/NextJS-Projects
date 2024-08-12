@@ -8,7 +8,7 @@ const Menu = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="relative">
+    <div className="relative md:hidden">
       {!open ? (
         <div>
           <Image
