@@ -18,8 +18,10 @@
 
 body {
   color: white;
-  text-align: center;
-  background-color: black;
+  font-family: "Roboto Light", serif;
+  /*text-align: center;*/
+  background-color: antiquewhite;
+  /*background-color: black;*/
   /*color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -27,4 +29,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));*/
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }

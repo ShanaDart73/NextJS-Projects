@@ -1,16 +1,15 @@
-import Link from "next/link";
+import Navbar from "/app/components/e-commerce/Navbar";
+import Content from "/app/components/e-commerce/Content";
+import Footer from "/app/components/e-commerce/Footer";
 
-const Page = () => {
+const Homepage = () => {
   return (
-    <>
-      <nav>
-        <Link href="/">Home</Link>
-      </nav>
-      <div>
-        <h2>e-commerce</h2>
-      </div>
-    </>
+    <div className="h-screen text-black bg-dart flex flex-col">
+      <Navbar />
+      <Content />
+      <Footer />
+    </div>
   );
 };
 
-export default Page;
+export default Homepage;
