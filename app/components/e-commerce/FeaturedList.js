@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const guavaDescription =
   "These tasty-looking guavas from Mexico, cultivated with natural nutrition, in addition of full sun that gives flavour and sweetness to the guavas.";
@@ -11,10 +14,12 @@ const papayaDescription =
   "These delicious-looking papayas from India, cultivated with natural nutrition, in addition of full sun that gives flavour and sweetness to the papayas.";
 
 const FeaturedList = () => {
+  const router = useRouter();
+
   return (
     <div className="my-10 flex gap-x-1 gap-y-16 justify-around flex-wrap">
       <div className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
-        <Link href="#">
+        <div onClick={() => router.push("e-commerce/1")}>
           <div className="relative w-full h-80">
             <Image
               src="https://i.guim.co.uk/img/media/f151a31819430ddf387331a8a3df8201f95d4449/0_324_5616_3370/master/5616.jpg?width=1200&quality=85&auto=format&fit=max&s=7557d7972a41cf757dd2719b9129fa23"
@@ -31,7 +36,7 @@ const FeaturedList = () => {
               className="absolute object-cover rounded-md"
             />
           </div>
-        </Link>
+        </div>
         <div className="flex justify-between px-4">
           <span className="font-medium text-lg xl:text-2xl">Guava</span>
           <span className="font-medium text-lg xl:text-2xl">$5.59</span>
@@ -49,7 +54,7 @@ const FeaturedList = () => {
         </div>
       </div>
       <div className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
-        <Link href="#">
+        <div onClick={() => router.push("e-commerce/2")}>
           <div className="relative w-full h-80">
             <Image
               src="https://blog.sakura.co/wp-content/uploads/2022/03/shutterstock_675217411-1.png"
@@ -66,7 +71,7 @@ const FeaturedList = () => {
               className="absolute object-cover rounded-md"
             />
           </div>
-        </Link>
+        </div>
         <div className="flex justify-between px-4">
           <span className="font-medium text-lg xl:text-2xl">Peach</span>
           <span className="font-medium text-lg xl:text-2xl">$3.99</span>
@@ -84,7 +89,7 @@ const FeaturedList = () => {
         </div>
       </div>
       <div className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
-        <Link href="#">
+        <div onClick={() => router.push("e-commerce/3")}>
           <div className="relative w-full h-80">
             <Image
               src="https://thefreshandnatural.com/wp-content/uploads/2020/05/ORANGE-READY-TO-EAT-KG.jpg"
@@ -101,7 +106,7 @@ const FeaturedList = () => {
               className="absolute object-cover rounded-md"
             />
           </div>
-        </Link>
+        </div>
         <div className="flex justify-between px-4">
           <span className="font-medium text-lg xl:text-2xl">Orange</span>
           <span className="font-medium text-lg xl:text-2xl">$4.99</span>
@@ -119,7 +124,7 @@ const FeaturedList = () => {
         </div>
       </div>
       <div className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
-        <Link href="#">
+        <div onClick={() => router.push("e-commerce/4")}>
           <div className="relative w-full h-80">
             <Image
               src="https://carlssfoodcity.com/wp-content/uploads/2023/03/cut-papaya.jpg"
@@ -136,7 +141,7 @@ const FeaturedList = () => {
               className="absolute object-cover rounded-md"
             />
           </div>
-        </Link>
+        </div>
         <div className="flex justify-between px-4">
           <span className="font-medium text-lg xl:text-2xl">Papaya</span>
           <span className="font-medium text-lg xl:text-2xl">$6.59</span>

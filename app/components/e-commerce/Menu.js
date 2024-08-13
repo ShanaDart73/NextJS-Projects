@@ -11,18 +11,16 @@ const Menu = () => {
     <div className="relative md:hidden">
       {!open ? (
         <div>
-          <Image
+          <img
             src="/menu.svg"
             alt=""
-            width={28}
-            height={28}
-            className="cursor-pointer"
+            className="w-6 h-6 cursor-pointer"
             onClick={() => setOpen((menu) => !menu)}
           />
         </div>
       ) : (
         <button
-          className="fixed top-4 right-4 w-6 fill-current"
+          className="fixed top-5 right-4 w-6 h-6 fill-current"
           onClick={() => setOpen((menu) => !menu)}
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
