@@ -5,7 +5,9 @@ const ProductPage = () => {
   return (
     <>
       <Navbar />
-      <div className="">Product Details</div>
+      <div className="">
+        <h1>Product Details</h1>
+      </div>
       <Footer />
     </>
   );

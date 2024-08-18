@@ -26,7 +26,7 @@ const FeaturedList = () => {
               alt=""
               fill
               sizes="25vw"
-              className="absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500"
+              className="absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500 cursor-pointer"
             />
             <Image
               src="https://cdn.mos.cms.futurecdn.net/RZpjoB2ryfQmiYzJdE7RCe-1200-80.jpg"
@@ -61,7 +61,7 @@ const FeaturedList = () => {
               alt=""
               fill
               sizes="25vw"
-              className="absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500"
+              className="absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500 cursor-pointer"
             />
             <Image
               src="https://www.rootsplants.co.uk/cdn/shop/products/dukeofyorkpeach-1.jpg?v=1684426956"
@@ -96,7 +96,7 @@ const FeaturedList = () => {
               alt=""
               fill
               sizes="25vw"
-              className="absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500"
+              className="absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500 cursor-pointer"
             />
             <Image
               src="https://backyardcitrustrees.com/cdn/shop/products/Page_Orange_Tree-100_500x500.jpg?v=1578543160"
@@ -131,7 +131,7 @@ const FeaturedList = () => {
               alt=""
               fill
               sizes="25vw"
-              className="absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500"
+              className="absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500 cursor-pointer"
             />
             <Image
               src="https://www.greenheartuae.com/wp-content/uploads/2022/10/organicpapaya.jpg"
